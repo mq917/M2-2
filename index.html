@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор оптимального вклада</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <h2>Подбор оптимального вклада</h2>
+    <div class="add-form">
+        <!-- <h3>Введите параметры вклада</h3> -->
+        <!-- <div class="input-with-caption">
+            <div>Начальная сумма</div>
+            <div><input id="stock-name" type="text" /></div>
+        </div> -->
+        <div class="input-with-caption">
+            <div>Начальная сумма</div>
+            <div><input id="start-amount" type="text" /></div>
+        </div>
+        <div class="input-with-caption">
+            <div>Сумма ежемесячного пополнения</div>
+            <div><input id="amount-replenishment" type="text" /></div>
+        </div>
+        <div class="input-with-caption">
+            <div>Срок вклада (количество месяцев)</div>
+            <div><input id="deposit-term" type="text" /></div>
+        </div>
+        <div class="input-with-caption">
+            <div>Валюта вклада</div>
+            <div><input id="deposit-currency" type="text" /></div>
+        </div>
+        <div id="button">Подобрать</div>
+    </div>
+    <div>
+        <table id="table">
+
+        </table>
+    </div>
+    <!-- <h2>Портфель клиента</h2> -->
+    <div id="briefcase"> </div>
+    <script>
+        new Application();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+div.add-form {
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.input-with-caption {
+    display: flex;
+    justify-content: space-between;
+}
+
+#button {
+    background: darkblue;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#button:hover {
+    background: blue;
+}
+
+table {
+    border-collapse: collapse;
+    width: 700px;
+    border: 1px solid blue;
+    margin: auto;
+}
+
+table tr {
+    border-bottom: 1px solid blue;
+}
+
+tr.active {
+    cursor: pointer;
+}
+
+table tr.active:hover {
+    background: #c9c9c9;
+}
+
+table th {
+    background: #eff1f5;
+    padding: 15px;
+    text-align: center;
+}
+
+table td {
+    padding: 4px;
+    text-align: center;
+}
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2017/09/07/08/53/money-2724237_960_720.jpg);
+    background-color: blue;
+    background-size: 100%;
+}
